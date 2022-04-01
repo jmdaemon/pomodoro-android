@@ -27,8 +27,7 @@ public class Pomodoro {
         PomodoroLib lib = PomodoroLib.INSTANCE;
         int sbreak = lib.to_secs(10);
         int lbreak = lib.to_secs(30);
-        PomodoroLib.Timer timer;
-        timer = lib.init_timer(sbreak, lbreak);
+        PomodoroLib.Timer timer = lib.init_timer(sbreak, lbreak);
         System.out.printf("Shortbreak: %d, Longbreak: %d\n", timer.shortbreak, timer.longbreak);
     }
 }
