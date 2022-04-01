@@ -25,17 +25,12 @@ dependencies {
     implementation 'net.java.dev.jna:jna-platform:5.11.0'
 }
 
-application {
-    // Define the main class for the application.
-    mainClass = 'pomodoro.interop.App'
-}
-
 tasks.named('test') {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
 }
 
-def AppEntryPoint = 'pomodoro.Pomodoro'
+def AppEntryPoint = 'pomodoro.android.Pomodoro'
 
 mainClassName = AppEntryPoint
 application {
