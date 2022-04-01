@@ -38,6 +38,9 @@ tasks.named('test') {
 def AppEntryPoint = 'pomodoro.Pomodoro'
 
 mainClassName = AppEntryPoint
+application {
+    mainClass = AppEntryPoint
+}
 
 java {
     toolchain {
