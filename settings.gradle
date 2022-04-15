@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = 'pomodoro_android'
+rootProject.name = 'pomodoro'
 include('app')

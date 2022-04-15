@@ -1,4 +1,4 @@
-package com.github.jmdaemon.pomodoro_android;
+package com.github.jmdaemon.pomodoro;
 
 import android.os.Bundle;
 
@@ -13,8 +13,8 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import com.github.jmdaemon.pomodoro_android.databinding.ActivityMainBinding;
-// import com.github.jmdaemon.pomodoro_android.databinding.ActivityMainBinding;
+import com.github.jmdaemon.pomodoro.databinding.ActivityMainBinding;
+// import com.github.jmdaemon.pomodoro.databinding.ActivityMainBinding;
 
 import android.view.Menu;
 import android.view.MenuItem;

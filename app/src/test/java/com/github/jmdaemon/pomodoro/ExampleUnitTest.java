@@ -1,4 +1,4 @@
-package com.github.jmdaemon.pomodoro_android;
+package com.github.jmdaemon.pomodoro;
 
 import org.junit.Test;
 

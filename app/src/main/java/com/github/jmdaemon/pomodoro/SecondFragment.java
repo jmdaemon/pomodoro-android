@@ -1,4 +1,4 @@
-package com.github.jmdaemon.pomodoro_android;
+package com.github.jmdaemon.pomodoro;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,8 +9,8 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-//import com.github.jmdaemon.pomodoro_android.databinding.FragmentSecondBinding;
-import com.github.jmdaemon.pomodoro_android.databinding.FragmentSecondBinding;
+//import com.github.jmdaemon.pomodoro.databinding.FragmentSecondBinding;
+import com.github.jmdaemon.pomodoro.databinding.FragmentSecondBinding;
 
 public class SecondFragment extends Fragment {
 
