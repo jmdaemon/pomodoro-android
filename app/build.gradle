@@ -68,22 +68,6 @@ dependencies {
 
 }
 
-//tasks.named('test') {
-    //// Use JUnit Platform for unit tests.
-    //useJUnitPlatform()
-//}
-
-group = 'com.github.jmdaemon'
-version = '0.1.0'
-
-//def AppEntryPoint = 'pomodoro.android.Pomodoro'
-def AppEntryPoint = 'pomodoro.android.Pomodoro'
-
-//mainClassName = AppEntryPoint
-//application {
-    //mainClass = AppEntryPoint
-//}
-
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(17)
