@@ -1,4 +1,5 @@
-package pomodoro.android;
+//package pomodoro.android;
+package com.github.jmdaemon.pomodoro_android;
 
 import com.sun.jna.Library;
 import com.sun.jna.Native;
