@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Pomodoro Android</string>
+    <string name="author">Joseph M. Diza</string>
+    <string name="author_email">josephm.diza@gmail.com</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
